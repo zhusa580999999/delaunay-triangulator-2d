@@ -1,0 +1,6 @@
+If this is your first run of tests, make sure that you are using an unmodified tree.
+
+Run ctest, and ensure that at least the *_finalize steps pass.
+Then copy all *.1.sma and *.1.spa files into testdata. Every subsequent run of ctest will diff against those files.
+
+Do not commit to the repository if any of the tests fail.
