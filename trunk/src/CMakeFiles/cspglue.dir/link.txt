@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -g  -shared -Wl,-soname,libcspglue.so -o ../lib/libcspglue.so "CMakeFiles/cspglue.dir/csp_glue.o" -L/home/jack/triangle/lib -lreader -lwriter -Wl,-rpath,/home/jack/triangle/lib 

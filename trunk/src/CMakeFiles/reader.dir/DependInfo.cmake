@@ -1,0 +1,26 @@
+# The set of files whose dependency integrity should be checked:
+SET(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+SET(CMAKE_DEPENDS_CHECK_CXX
+  "/home/jack/triangle/src/spreader_spa.cpp"
+  "/home/jack/triangle/src/CMakeFiles/reader.dir/spreader_spa.o"
+  "/home/jack/triangle/src/smreader_smb.cpp"
+  "/home/jack/triangle/src/CMakeFiles/reader.dir/smreader_smb.o"
+  "/home/jack/triangle/src/svreader_sva.cpp"
+  "/home/jack/triangle/src/CMakeFiles/reader.dir/svreader_sva.o"
+  "/home/jack/triangle/src/svreader_svb.cpp"
+  "/home/jack/triangle/src/CMakeFiles/reader.dir/svreader_svb.o"
+  "/home/jack/triangle/src/spreader_node.cpp"
+  "/home/jack/triangle/src/CMakeFiles/reader.dir/spreader_node.o"
+  "/home/jack/triangle/src/spreader_raw.cpp"
+  "/home/jack/triangle/src/CMakeFiles/reader.dir/spreader_raw.o"
+  "/home/jack/triangle/src/spreader_raw_d.cpp"
+  "/home/jack/triangle/src/CMakeFiles/reader.dir/spreader_raw_d.o"
+  "/home/jack/triangle/src/spreader_tiles.cpp"
+  "/home/jack/triangle/src/CMakeFiles/reader.dir/spreader_tiles.o"
+  "/home/jack/triangle/src/smreader_sma.cpp"
+  "/home/jack/triangle/src/CMakeFiles/reader.dir/smreader_sma.o"
+  "/home/jack/triangle/src/spreader_spb.cpp"
+  "/home/jack/triangle/src/CMakeFiles/reader.dir/spreader_spb.o"
+  )

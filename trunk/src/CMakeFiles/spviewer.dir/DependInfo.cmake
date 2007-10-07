@@ -1,0 +1,26 @@
+# The set of files whose dependency integrity should be checked:
+SET(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+SET(CMAKE_DEPENDS_CHECK_CXX
+  "/home/jack/triangle/src/delaunay3.cpp"
+  "/home/jack/triangle/src/CMakeFiles/spviewer.dir/delaunay3.o"
+  "/home/jack/triangle/src/delaunay2.cpp"
+  "/home/jack/triangle/src/CMakeFiles/spviewer.dir/delaunay2.o"
+  "/home/jack/triangle/src/predicates.cpp"
+  "/home/jack/triangle/src/CMakeFiles/spviewer.dir/predicates.o"
+  "/home/jack/triangle/src/spdelaunay2d.cpp"
+  "/home/jack/triangle/src/CMakeFiles/spviewer.dir/spdelaunay2d.o"
+  "/home/jack/triangle/src/spdelaunay3d.cpp"
+  "/home/jack/triangle/src/CMakeFiles/spviewer.dir/spdelaunay3d.o"
+  "/home/jack/triangle/src/spreadscattered.cpp"
+  "/home/jack/triangle/src/CMakeFiles/spviewer.dir/spreadscattered.o"
+  "/home/jack/triangle/src/sscontainer3d.cpp"
+  "/home/jack/triangle/src/CMakeFiles/spviewer.dir/sscontainer3d.o"
+  "/home/jack/triangle/src/sscontainer2d.cpp"
+  "/home/jack/triangle/src/CMakeFiles/spviewer.dir/sscontainer2d.o"
+  "/home/jack/triangle/src/sp_viewer.cpp"
+  "/home/jack/triangle/src/CMakeFiles/spviewer.dir/sp_viewer.o"
+  "/home/jack/triangle/src/spconverter.cpp"
+  "/home/jack/triangle/src/CMakeFiles/spviewer.dir/spconverter.o"
+  )
