@@ -12,9 +12,10 @@ instead of triangulating as
 
 we should triangulate without the -r flag
 
-4. after writing the last fine triangle to .ele
-file, close the file, reopen it and write the .ele
-header (i.e. # of triangles, etc) as the 1st line.
+4. DONE
+// after writing the last fine triangle to .ele
+// file, close the file, reopen it and write the .ele
+// header (i.e. # of triangles, etc) as the 1st line.
 
 5. make sure all vertextricounts (# of triangles
 touching a vertex) are calculated correctly.

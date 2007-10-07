@@ -34,6 +34,7 @@ TARGET_LINK_LIBRARIES(cspglue
   writer)
 
 ADD_EXECUTABLE(triangle
+  fileutils.c
   triangle.c
   triextra.c)
 TARGET_LINK_LIBRARIES(triangle

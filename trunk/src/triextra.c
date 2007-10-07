@@ -1,5 +1,6 @@
 #include <internals.h>
 #include <assert.h>
+#include <fileutils.h>
 
 //============ helper data types =============
 //
@@ -533,7 +534,7 @@ void finetriangulate(struct mesh *m, struct behavior *b, char *filename, struct 
   if (!b->quiet) {
     printf("Opening %s.\n", b->outelefilename);
   }
-  outelefile = fopen(b->outelefilename, "w");
+  outelefile = fopen(b->outelefilename, "w+");
   if (outelefile == (FILE *) NULL) {
     printf("  Error:  Cannot create file %s.\n", b->outelefilename);
     triexit(1);
@@ -646,9 +647,8 @@ void finetriangulate(struct mesh *m, struct behavior *b, char *filename, struct 
   // all the fine triangles have been written to the .ele file
 
   /* Number of triangles, vertices per triangle, attributes per triangle. */
-  // TODO: need to put this in the beginning of the file.
-  fprintf(outelefile, "%ld  %d  %d\n", m->outfineelementmarker - b->firstnumber,
-          (b->order + 1) * (b->order + 2) / 2, m->eextras);
+  finsertf(outelefile, "%ld  %d  %d\n", m->outfineelementmarker - b->firstnumber,
+					 (b->order + 1) * (b->order + 2) / 2, m->eextras);
 
   //  removebox(m, b); // this causes seg fault
   // and we dont need this because we are done with writing the triangles!
