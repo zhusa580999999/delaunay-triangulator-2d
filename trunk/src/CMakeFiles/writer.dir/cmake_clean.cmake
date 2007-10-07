@@ -1,9 +1,0 @@
-FILE(REMOVE
-"../lib/libwriter.a"
-"../lib/libwriter.so"
-"CMakeFiles/writer.dir/spwriter_spa.o"
-"CMakeFiles/writer.dir/spwriter_spb.o"
-"CMakeFiles/writer.dir/spwriter_raw.o"
-"CMakeFiles/writer.dir/smwriter_sma.o"
-"CMakeFiles/writer.dir/smwriter_smb.o"
-)
