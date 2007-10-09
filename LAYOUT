@@ -1,0 +1,11 @@
+The layout of the tree is as follows:
+
+build: directory for storing built makefiles and objects to; another
+       directory may be used, but this one is provided for convenience
+src: directory where all source files should be stored
+src/public: contains public interfaces and demos on how to call them
+src/internal: contains implementation of public interfaces
+src/internal/viewers: contains code for viewer tools
+src/data: data that may be used with one or more of the targets
+
+TODO(mario): move viewers and other utilities to a special directory

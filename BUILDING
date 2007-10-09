@@ -1,0 +1,15 @@
+We use CMake to build this project.
+
+You may download it from:
+http://www.cmake.org/HTML/Download.html
+
+To compile without littering your source directory, you
+should perform an out-of-source build:
+
+cd build
+cmake ../src
+make
+
+To declare CMake compile targets, you would need to edit the
+CMakeLists.txt file in the directory where your source file resides.
+
