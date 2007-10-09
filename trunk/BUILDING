@@ -13,3 +13,11 @@ make
 To declare CMake compile targets, you would need to edit the
 CMakeLists.txt file in the directory where your source file resides.
 
+For unit-testing we use CppUnit. Usage documentation is located here:
+http://cppunit.sourceforge.net/doc/lastest/cppunit_cookbook.html
+
+You need to create a test-fixture for your tests and register it.
+See src/testing/example_test.cc and the corresponding entry in
+src/testing/CMakeLists.txt for an example.
+
+Afterwards, you can use ctest to run your tests.
