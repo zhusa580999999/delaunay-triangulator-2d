@@ -354,7 +354,7 @@
 #include <fpu_control.h>
 #endif /* LINUX */
 #ifdef TRILIBRARY
-#include "triangle.h"
+#include "public/triangle.h"
 #endif /* TRILIBRARY */
 
 /* A few forward declarations.                                               */
