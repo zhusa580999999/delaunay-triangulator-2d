@@ -9,8 +9,8 @@ class ExampleTest : public CPPUNIT_NS::TestCase {
   CPPUNIT_TEST_SUITE_END();
 
  public:
-  void setUp(void) {}
-  void tearDown(void) {} 
+  void setUp() {}
+  void tearDown() {} 
 
  protected:
   void testAddition() {
