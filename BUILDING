@@ -1,7 +1,25 @@
-We use CMake to build this project.
+REQUIRED SOFTWARE
+=================
 
-You may download it from:
+1. CMake  --- cross platform build
+ubuntu: cmake
+download:
 http://www.cmake.org/HTML/Download.html
+
+2. CppUnit --- unit-testing
+ubuntu: libcppunit-1.12-0 libcppunit-dev
+
+3. OpenGL
+
+
+4. Glut --- OpenGL utilities
+ubuntu - freeglut3 freeglut3-dev libglut3
+
+
+BUILD
+=====
+
+Once you have everything above installed, you can build this project.
 
 To compile without littering your source directory, you
 should perform an out-of-source build:
@@ -9,6 +27,10 @@ should perform an out-of-source build:
 cd build
 cmake ../src
 make
+
+
+Unit Testing
+============
 
 To declare CMake compile targets, you would need to edit the
 CMakeLists.txt file in the directory where your source file resides.
