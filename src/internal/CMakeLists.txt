@@ -13,4 +13,4 @@ IF(UNIX)
   TARGET_LINK_LIBRARIES(triangle -lm)
 ENDIF(UNIX)
 
-SUBDIRS(viewers)
+SUBDIRS(io viewers)
