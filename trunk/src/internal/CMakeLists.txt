@@ -7,7 +7,7 @@
 #
 
 # Triangle
-ADD_EXECUTABLE(triangle triangle.c)
+ADD_EXECUTABLE(triangle triangle.c finalizer.c)
 TARGET_LINK_LIBRARIES(triangle)
 IF(UNIX)
   TARGET_LINK_LIBRARIES(triangle -lm)
